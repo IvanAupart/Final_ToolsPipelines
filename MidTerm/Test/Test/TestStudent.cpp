@@ -54,7 +54,7 @@ void StudentTest::FindAverageGrade()
 {
 	Student stu("Jimmy Neutron", "01010101");
 
-	stu.assignGrade("SCIENCE", 50);
+	stu.assignGrade("SCIENCE", 60);
 	stu.assignGrade("MATH", 70);
 	stu.assignGrade("ROBOT CONSTRUCTION", 70);
 	stu.assignGrade("PICK UP CLASS", 100);
