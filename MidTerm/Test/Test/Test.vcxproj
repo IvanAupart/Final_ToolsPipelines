@@ -106,10 +106,13 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\374718\Source\Repos\GameTools_PipeLines\MidTerm\cppunit-1.12.1\include;C:\Users\374718\Source\Repos\GameTools_PipeLines\MidTerm\cppunit-1.12.1\include\cppunit</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\374718\Source\Repos\GameTools_PipeLines\MidTerm\cppunit-1.12.1\lib;D:\Van%27s_0.2\cppunit-1.12.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cppunit.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -152,21 +155,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="..\..\..\Van%27s_0.2\Test\Test\ReadMe.txt" />
+    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Van%27s_0.2\Test\Test\Course.h" />
-    <ClInclude Include="..\..\..\Van%27s_0.2\Test\Test\stdafx.h" />
-    <ClInclude Include="..\..\..\Van%27s_0.2\Test\Test\Student.h" />
-    <ClInclude Include="..\..\..\Van%27s_0.2\Test\Test\targetver.h" />
-    <ClInclude Include="..\..\..\Van%27s_0.2\Test\Test\TestStudent.h" />
+    <ClInclude Include="Course.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestStudent.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Van%27s_0.2\Test\Test\Course.cpp" />
-    <ClCompile Include="..\..\..\Van%27s_0.2\Test\Test\stdafx.cpp" />
-    <ClCompile Include="..\..\..\Van%27s_0.2\Test\Test\Student.cpp" />
-    <ClCompile Include="..\..\..\Van%27s_0.2\Test\Test\Test.cpp" />
-    <ClCompile Include="..\..\..\Van%27s_0.2\Test\Test\TestStudent.cpp" />
+    <ClCompile Include="Course.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="TestStudent.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
