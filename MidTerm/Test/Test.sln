@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{EE4E3045-D0D5-43A4-872A-D2FC2A2E872C}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x86 = Debug|x86
-		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EE4E3045-D0D5-43A4-872A-D2FC2A2E872C}.Debug|x86.ActiveCfg = Debug|Win32
-		{EE4E3045-D0D5-43A4-872A-D2FC2A2E872C}.Debug|x86.Build.0 = Debug|Win32
-		{EE4E3045-D0D5-43A4-872A-D2FC2A2E872C}.Release|x86.ActiveCfg = Release|Win32
-		{EE4E3045-D0D5-43A4-872A-D2FC2A2E872C}.Release|x86.Build.0 = Release|Win32
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-EndGlobal
-=======
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
@@ -50,4 +26,3 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
->>>>>>> 816b3c07fe00d29fe75f2844cd4f717b80e078d2
