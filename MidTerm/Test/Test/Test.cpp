@@ -167,7 +167,10 @@ int main(int argc, char **argv)
 	bool wasSucessful = runner.run();
 
 
-	return wasSucessful ? 0 : 1;
+	if (!wasSucessful)
+	{
+		return 1;
+	}
 
 	int ret;
 
